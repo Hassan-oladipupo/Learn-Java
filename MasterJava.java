@@ -80,6 +80,30 @@ public class MasterJava{
             System.out.println(intNumber2);       
 
 
+           double shapeValue = 78.9;
+           System.out.println("The current shape value is :"  + shapeValue);
+
+           int intConvert = (int) shapeValue;
+
+             System.out.println("The current shape value is :"  + intConvert);
+
+             double doubleConvert = (double) intConvert;
+
+               System.out.println("The current shape value is :"  + doubleConvert);
+
+               float floatConvert = (float) doubleConvert;
+
+               System.out.println("The current shape value is :"  + floatConvert);
+
+                 long longConvert = (long) floatConvert;
+
+               System.out.println("The current shape value is :"  + longConvert);
+
+
+
+
+
+
 
     }
 }
