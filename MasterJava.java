@@ -100,6 +100,54 @@ public class MasterJava{
                System.out.println("The current shape value is :"  + longConvert);
 
 
+        //Operators: special symbol use to perform operation on variables 
+
+        //Type
+         //1.  Modulo operators: gives remainder value after division
+            
+             int num1 = 8;
+             int num2 = 3;
+
+             int resultModulo = num1 % num2;
+             System.out.println("The result is: " + resultModulo);
+
+             //2. Unary
+                 int num3 =+5;
+                 int num4 =-5;
+                 
+                //3. Post Increment: Increase the value of the variable by one after re-assigning
+
+                int num5 = 10;
+                int num6 = num5++;
+               System.out.println("Post Increment");
+                System.out.println("num5 is : " + num5);
+                System.out.println("num6 is : " + num6);
+
+                //4. Pre Increment: Increase the value of the variable by one before re-assigning
+
+                int num7 = 10;
+                int num8 = ++num7;
+               System.out.println("Pre Increment");
+                System.out.println("num7 is : " + num7);
+                System.out.println("num8 is : " + num8);
+           
+
+                   //5. Post Decrement: decrease the value of the variable by one after re-assigning
+
+                int num9 = 15;
+                int num10 = num9++;
+               System.out.println("Post Decrement");
+                System.out.println("num9 is : " + num9);
+                System.out.println("num10 is : " + num10);
+
+                //3. Pre Decrement: Decrease the value of the variable by one before re-assigning
+
+                int num11 = 17;
+                int num12 = ++num11;
+               System.out.println("Pre Decrement");
+                System.out.println("num11 is : " + num11);
+                System.out.println("num12 is : " + num12);
+           
 
 
 
