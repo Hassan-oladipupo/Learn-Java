@@ -140,14 +140,88 @@ public class MasterJava{
                 System.out.println("num9 is : " + num9);
                 System.out.println("num10 is : " + num10);
 
-                //3. Pre Decrement: Decrease the value of the variable by one before re-assigning
+                //6. Pre Decrement: Decrease the value of the variable by one before re-assigning
 
                 int num11 = 17;
                 int num12 = ++num11;
                System.out.println("Pre Decrement");
                 System.out.println("num11 is : " + num11);
                 System.out.println("num12 is : " + num12);
-           
+
+                //Relational Operators: use to perform comparison between two values
+
+                //1 Equal to (==)
+                    int newNum1 = 10;
+                    int newNum2 = 5;
+                    boolean resultNum12 = (newNum1 == newNum2);
+                     System.out.println("is newNum1 equal newNum2 ? : " + resultNum12);
+
+
+                //1 Not Equal to (!=)
+                    int newNum3 = 10;
+                    int newNum4 = 5;
+                    boolean resultNum34 = (newNum3  != newNum4);
+                     System.out.println("is newNum3 not equal newNum2 ? : " + resultNum34);
+
+
+                     
+
+                //3 greater than (>)
+                    int newNum5 = 10;
+                    int newNum6 = 5;
+                    boolean resultNum56 = (newNum5 >  newNum6);
+                     System.out.println("is newNum5 greater than newNum6 ? : " + resultNum56);
+
+              //4 greater than or equal to  (>=)
+                    int newNum7 = 10;
+                    int newNum8 = 5;
+                    boolean resultNum78 = (newNum7 >=  newNum8);
+                     System.out.println("is newNum7 greater or  equal newNum8 ? : " + resultNum78);
+
+
+              //5 less  than (<)
+                    int newNum9 = 10;
+                    int newNum10 = 5;
+                    boolean resultNum109 = (newNum9 <  newNum10);
+                     System.out.println("is newNum9 less than newNum10 ? : " + resultNum109);
+
+              //4 less than or equal to  (<=)
+                    int newNum11 = 10;
+                    int newNum12 = 5;
+                    boolean resultNum1112 = (newNum11 <=  newNum12);
+                     System.out.println("is newNum11 less or  equal newNum12 ? : " + resultNum1112);
+
+
+                     //Compound Operators
+
+                     //1. Additional assignment: use to add value at the left to the variable at the right 
+
+                     int operaNum1 = 4;
+                    System.out.println("The result of operaNum1 before addition assignment is :" + operaNum1);
+                     operaNum1 +=  3;
+                    System.out.println("The result of operaNum1 after addition assignment is :" + operaNum1);
+
+                //2. Subtraction assignment: use to subtract value at the left from the variable at the right 
+
+                     int operaNum2 = 4;
+                    System.out.println("The result of operaNum2 before subtraction assignment is :" + operaNum2);
+                     operaNum2 -=  3;
+                    System.out.println("The result of operaNum2 after subtraction assignment is :" + operaNum2);
+
+                  //3. Multiplication assignment: use to multiply value at the left to the variable at the right 
+
+                     int operaNum3 = 4;
+                    System.out.println("The result of operaNum2 before multiplication assignment is :" + operaNum3);
+                     operaNum3 *=  3;
+                    System.out.println("The result of operaNum2 after addition multiplication assignment is :" + operaNum3);
+
+                     //4. Division assignment: use to divide value at the left by the variable at the right 
+
+                     int operaNum4 = 4;
+                    System.out.println("The result of operaNum2 before division assignment is :" + operaNum4);
+                     operaNum4 /=  2;
+                    System.out.println("The result of operaNum2 after division assignment :" + operaNum4);
+
 
 
 
