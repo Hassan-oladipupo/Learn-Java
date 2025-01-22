@@ -299,6 +299,34 @@ public class MasterJava{
                         boolean compareStr79 = (str7.equalsIgnoreCase(str9));
                         System.out.println("Comparing " + str7 + " with " + str9 + " using equalsIgnoreCase() " + " and the result is: " + compareStr79);
 
+                  // Cutting string : this involves breaking string in to different part using substring() method
+
+                  String phrase1 = "programming in java";
+                  String word1 = phrase1.substring(0,11);
+                  System.out.println(word1);
+
+                   String phrase2 = "programming in python";
+                  String word2 = phrase2.substring(15);
+                  System.out.println(word2);
+
+                  // replace method(): use to replace a character in a string with another one
+                  String phrase3 = "Tap level pragrammer";
+                  String replaceLetter = phrase3.replace('a', 'o');
+                  System.out.println(replaceLetter);
+
+                   // toUpperCase  method(): use to change lower letter to upper case
+                  String phrase4 = "Top level programmer";
+                  String upperLetter = phrase4.toUpperCase();
+                  System.out.println(upperLetter);
+
+                   // toLowerCase  method(): use to change upper letter to lower case
+                  String phrase5 = "top level programmer";
+                  String lowerLetter = phrase5.toLowerCase();
+                  System.out.println(lowerLetter);
+
+
+
+
 
 
         
