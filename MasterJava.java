@@ -257,8 +257,9 @@ public class MasterJava{
                           char firstChar = newQuote.charAt(0);
                          System.out.println(firstChar);
 
-                         // Comparing string with (==): this compare every details of the strings 
+                         // Comparing string with (==): this compare every details of the strings , this is know as comparing with reference
 
+                         // Comparing Reference : memory Address
                          String str1 = "javaScript";
                         String str2 = "javaScript";
                         String str3 = new String("javaScript");
@@ -268,6 +269,38 @@ public class MasterJava{
 
                         boolean compareStr13 = (str1 == str3);
                         System.out.println("Comparing " + str1 + " with " + str3 + " using == " + " and the result is: " + compareStr13);
+
+                         // Comparing string with (equals): this compare only values of variables
+
+                           // Comparing variables value 
+
+                         String str4 = "Java";
+                        String str5 = "Java";
+                        String str6 = new String("Java");
+
+                        boolean compareStr45 = (str4.equals(str5));
+                        System.out.println("Comparing " + str4 + " with " + str5 + " using equals() " + " and the result is: " + compareStr45);
+
+                        boolean compareStr46 = (str4.equals(str6));
+                        System.out.println("Comparing " + str4 + " with " + str6 + " using equals() " + " and the result is: " + compareStr46);
+
+
+                // Comparing string with (equalsIgnoreCase): this compare only values of variables without case sensitivity
+
+                      // Comparing variables value  without case sensitivity
+
+                         String str7 = "Php";
+                        String str8 = "php";
+                        String str9 = new String("phP");
+
+                        boolean compareStr78 = (str7.equalsIgnoreCase(str8));
+                        System.out.println("Comparing " + str7 + " with " + str8 + " using equalsIgnorecase() " + " and the result is: " + compareStr78);
+
+                        boolean compareStr79 = (str7.equalsIgnoreCase(str9));
+                        System.out.println("Comparing " + str7 + " with " + str9 + " using equalsIgnoreCase() " + " and the result is: " + compareStr79);
+
+
+
         
 
 
