@@ -224,6 +224,54 @@ public class MasterJava{
 
 
 
+                    // String: represent a sequence of character.
+
+                    // Creating string using sting literal 
+                    String morning = "Good morning";
+                    System.out.println(morning);
+
+                    // Creating string using the "new" keyword
+                      String night = new String("Good night");
+                      System.out.println(night);
+
+                      // Concatenation: Joining two or more string, string can also be concatenated with number nut the number will be converted to string automatically 
+                      
+                      //  Concatenating string 
+                         String firstName = "Hassan";
+                         String lastName = new String("Oladipupo");
+                         String fullName = firstName + " " + lastName;
+                         System.out.println(fullName);
+
+                          //  Concatenating string with numbers 
+                          int age = 26;
+                          String bio = "My name is "  + fullName + "and i am "  + age + " years old" ;
+                          System.out.println(bio);
+
+                          // String method Length: use to get the length of a string 
+                          String quote = "Determination is the Key";
+                          int quoteLength = quote.length();
+                         System.out.println(quoteLength);
+                         
+                         // String method charAt: use to get specific character  at specific index
+                          String newQuote = "Motivation is the Key";
+                          char firstChar = newQuote.charAt(0);
+                         System.out.println(firstChar);
+
+                         // Comparing string with (==): this compare every details of the strings 
+
+                         String str1 = "javaScript";
+                        String str2 = "javaScript";
+                        String str3 = new String("javaScript");
+
+                        boolean compareStr12 = (str1 == str2);
+                        System.out.println("Comparing " + str1 + " with " + str2 + " using == " + " and the result is: " + compareStr12);
+
+                        boolean compareStr13 = (str1 == str3);
+                        System.out.println("Comparing " + str1 + " with " + str3 + " using == " + " and the result is: " + compareStr13);
+        
+
+
+
 
 
 
