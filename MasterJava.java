@@ -320,22 +320,9 @@ public class MasterJava{
         System.out.println(upperLetter);
 
         // toLowerCase  method(): use to change upper letter to lower case
-        String phrase5 = "top level programmer";
+        String phrase5 = "TOP LEVEL PROGRAMMER";
         String lowerLetter = phrase5.toLowerCase();
         System.out.println(lowerLetter);
-
-        
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
