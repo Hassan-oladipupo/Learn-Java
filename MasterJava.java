@@ -1,51 +1,51 @@
 public class MasterJava{
     public static void main(String[] args){
-        //Displaying text to console 
-    System.out.println("Hello World!");
-    System.out.println("Hello student");
-    
-    
-    //Escape sequence: use for breaking lines in text
-    System.out.println("Oladipupo \nHassan");
-    
-    //Basic maths
-    System.out.println(4+3);
-    System.out.println(3-2);
-    System.out.println(10/2);
-    System.out.println(2*3);
-
-    // Variable declaration and Assigning
-    int myAge; //declaring variable
-    myAge = 56; //Assigning Variable
-    int myWeight = 800; // declaration and assigning 
-    System.out.println(myAge);
-    System.out.println(myWeight);
+        //Displaying text to console
+        System.out.println("Hello World!");
+        System.out.println("Hello student");
 
 
-    //Primitive Data types in Java
+        //Escape sequence: use for breaking lines in text
+        System.out.println("Oladipupo \nHassan");
 
-    //DataTypes For Whole Number: numbers with no decimal point 
-     
-     //1. Byte: ranges -128 to 127
-          byte newByte = 127;
-     // 2.  Short : ranges -32,768 to 32,767
-            short   newShort = 3287;
-     // 3. Int: ranges -2, 147,483,648 to 2,147,483,647
-            int newInt = 342455;
-       //4. long
-              long newLong = 300_00_00_000L;
+        //Basic maths
+        System.out.println(4+3);
+        System.out.println(3-2);
+        System.out.println(10/2);
+        System.out.println(2*3);
 
-    //DataTypes For Decimal Number: numbers with  decimal point 
+        // Variable declaration and Assigning
+        int myAge; //declaring variable
+        myAge = 56; //Assigning Variable
+        int myWeight = 800; // declaration and assigning
+        System.out.println(myAge);
+        System.out.println(myWeight);
 
-    //1. Float: store 32bits of floating point numbers
-       float newFloat = 32.4f;
 
-    // 2. Double: stores 64bits of double point number 
+        //Primitive Data types in Java
+
+        //DataTypes For Whole Number: numbers with no decimal point
+
+        //1. Byte: ranges -128 to 127
+        byte newByte = 127;
+        // 2.  Short : ranges -32,768 to 32,767
+        short   newShort = 3287;
+        // 3. Int: ranges -2, 147,483,648 to 2,147,483,647
+        int newInt = 342455;
+        //4. long
+        long newLong = 300_00_00_000L;
+
+        //DataTypes For Decimal Number: numbers with  decimal point
+
+        //1. Float: store 32bits of floating point numbers
+        float newFloat = 32.4f;
+
+        // 2. Double: stores 64bits of double point number
         double newDouble = 3.14159665;
 
         //Data type Char: to store a single character
         char newChar = 'A';
-        //Data type Boolean: to store value that are either true or false 
+        //Data type Boolean: to store value that are either true or false
 
         boolean isBoolean = true;
         boolean isPresent = false;
@@ -65,271 +65,273 @@ public class MasterJava{
         int difference = a - b;
         System.out.println("The difference is : " + difference);
 
-        
-
-       //TypeCasting, it involves converting one data type to another 
-         // 1. Implicit typecasting: convert from smaller data type value to bigger data type  value and it happens automatically and no data lost
-           int intNumber = 14;
-           double doubleNumber = intNumber;
-           System.out.println(doubleNumber);       
-
-           // 2. explicit typecasting: convert from bigger data type value to smaller data type  value and it happens manually and result to loss of data
-
-           double doubleNumber2 = 45.6;
-           int intNumber2 = (int) doubleNumber2;
-            System.out.println(intNumber2);       
 
 
-           double shapeValue = 78.9;
-           System.out.println("The current shape value is :"  + shapeValue);
+        //TypeCasting, it involves converting one data type to another
+        // 1. Implicit typecasting: convert from smaller data type value to bigger data type  value and it happens automatically and no data lost
+        int intNumber = 14;
+        double doubleNumber = intNumber;
+        System.out.println(doubleNumber);
 
-           int intConvert = (int) shapeValue;
+        // 2. explicit typecasting: convert from bigger data type value to smaller data type  value and it happens manually and result to loss of data
 
-             System.out.println("The current shape value is :"  + intConvert);
-
-             double doubleConvert = (double) intConvert;
-
-               System.out.println("The current shape value is :"  + doubleConvert);
-
-               float floatConvert = (float) doubleConvert;
-
-               System.out.println("The current shape value is :"  + floatConvert);
-
-                 long longConvert = (long) floatConvert;
-
-               System.out.println("The current shape value is :"  + longConvert);
+        double doubleNumber2 = 45.6;
+        int intNumber2 = (int) doubleNumber2;
+        System.out.println(intNumber2);
 
 
-        //Operators: special symbol use to perform operation on variables 
+        double shapeValue = 78.9;
+        System.out.println("The current shape value is :"  + shapeValue);
+
+        int intConvert = (int) shapeValue;
+
+        System.out.println("The current shape value is :"  + intConvert);
+
+        double doubleConvert = (double) intConvert;
+
+        System.out.println("The current shape value is :"  + doubleConvert);
+
+        float floatConvert = (float) doubleConvert;
+
+        System.out.println("The current shape value is :"  + floatConvert);
+
+        long longConvert = (long) floatConvert;
+
+        System.out.println("The current shape value is :"  + longConvert);
+
+
+        //Operators: special symbol use to perform operation on variables
 
         //Type
-         //1.  Modulo operators: gives remainder value after division
-            
-             int num1 = 8;
-             int num2 = 3;
+        //1.  Modulo operators: gives remainder value after division
 
-             int resultModulo = num1 % num2;
-             System.out.println("The result is: " + resultModulo);
+        int num1 = 8;
+        int num2 = 3;
 
-             //2. Unary
-                 int num3 =+5;
-                 int num4 =-5;
-                 
-                //3. Post Increment: Increase the value of the variable by one after re-assigning
+        int resultModulo = num1 % num2;
+        System.out.println("The result is: " + resultModulo);
 
-                int num5 = 10;
-                int num6 = num5++;
-               System.out.println("Post Increment");
-                System.out.println("num5 is : " + num5);
-                System.out.println("num6 is : " + num6);
+        //2. Unary
+        int num3 =+5;
+        int num4 =-5;
 
-                //4. Pre Increment: Increase the value of the variable by one before re-assigning
+        //3. Post Increment: Increase the value of the variable by one after re-assigning
 
-                int num7 = 10;
-                int num8 = ++num7;
-               System.out.println("Pre Increment");
-                System.out.println("num7 is : " + num7);
-                System.out.println("num8 is : " + num8);
-           
+        int num5 = 10;
+        int num6 = num5++;
+        System.out.println("Post Increment");
+        System.out.println("num5 is : " + num5);
+        System.out.println("num6 is : " + num6);
 
-                   //5. Post Decrement: decrease the value of the variable by one after re-assigning
+        //4. Pre Increment: Increase the value of the variable by one before re-assigning
 
-                int num9 = 15;
-                int num10 = num9++;
-               System.out.println("Post Decrement");
-                System.out.println("num9 is : " + num9);
-                System.out.println("num10 is : " + num10);
+        int num7 = 10;
+        int num8 = ++num7;
+        System.out.println("Pre Increment");
+        System.out.println("num7 is : " + num7);
+        System.out.println("num8 is : " + num8);
 
-                //6. Pre Decrement: Decrease the value of the variable by one before re-assigning
 
-                int num11 = 17;
-                int num12 = ++num11;
-               System.out.println("Pre Decrement");
-                System.out.println("num11 is : " + num11);
-                System.out.println("num12 is : " + num12);
+        //5. Post Decrement: decrease the value of the variable by one after re-assigning
 
-                //Relational Operators: use to perform comparison between two values
+        int num9 = 15;
+        int num10 = num9++;
+        System.out.println("Post Decrement");
+        System.out.println("num9 is : " + num9);
+        System.out.println("num10 is : " + num10);
 
-                //1 Equal to (==)
-                    int newNum1 = 10;
-                    int newNum2 = 5;
-                    boolean resultNum12 = (newNum1 == newNum2);
-                     System.out.println("is newNum1 equal newNum2 ? : " + resultNum12);
+        //6. Pre Decrement: Decrease the value of the variable by one before re-assigning
 
-
-                //1 Not Equal to (!=)
-                    int newNum3 = 10;
-                    int newNum4 = 5;
-                    boolean resultNum34 = (newNum3  != newNum4);
-                     System.out.println("is newNum3 not equal newNum2 ? : " + resultNum34);
+        int num11 = 17;
+        int num12 = ++num11;
+        System.out.println("Pre Decrement");
+        System.out.println("num11 is : " + num11);
+        System.out.println("num12 is : " + num12);
 
+        //Relational Operators: use to perform comparison between two values
 
-                     
+        //1 Equal to (==)
+        int newNum1 = 10;
+        int newNum2 = 5;
+        boolean resultNum12 = (newNum1 == newNum2);
+        System.out.println("is newNum1 equal newNum2 ? : " + resultNum12);
 
-                //3 greater than (>)
-                    int newNum5 = 10;
-                    int newNum6 = 5;
-                    boolean resultNum56 = (newNum5 >  newNum6);
-                     System.out.println("is newNum5 greater than newNum6 ? : " + resultNum56);
 
-              //4 greater than or equal to  (>=)
-                    int newNum7 = 10;
-                    int newNum8 = 5;
-                    boolean resultNum78 = (newNum7 >=  newNum8);
-                     System.out.println("is newNum7 greater or  equal newNum8 ? : " + resultNum78);
+        //1 Not Equal to (!=)
+        int newNum3 = 10;
+        int newNum4 = 5;
+        boolean resultNum34 = (newNum3  != newNum4);
+        System.out.println("is newNum3 not equal newNum2 ? : " + resultNum34);
 
 
-              //5 less  than (<)
-                    int newNum9 = 10;
-                    int newNum10 = 5;
-                    boolean resultNum109 = (newNum9 <  newNum10);
-                     System.out.println("is newNum9 less than newNum10 ? : " + resultNum109);
 
-              //4 less than or equal to  (<=)
-                    int newNum11 = 10;
-                    int newNum12 = 5;
-                    boolean resultNum1112 = (newNum11 <=  newNum12);
-                     System.out.println("is newNum11 less or  equal newNum12 ? : " + resultNum1112);
 
+        //3 greater than (>)
+        int newNum5 = 10;
+        int newNum6 = 5;
+        boolean resultNum56 = (newNum5 >  newNum6);
+        System.out.println("is newNum5 greater than newNum6 ? : " + resultNum56);
 
-                     //Compound Operators
+        //4 greater than or equal to  (>=)
+        int newNum7 = 10;
+        int newNum8 = 5;
+        boolean resultNum78 = (newNum7 >=  newNum8);
+        System.out.println("is newNum7 greater or  equal newNum8 ? : " + resultNum78);
 
-                     //1. Additional assignment: use to add value at the left to the variable at the right 
 
-                     int operaNum1 = 4;
-                    System.out.println("The result of operaNum1 before addition assignment is :" + operaNum1);
-                     operaNum1 +=  3;
-                    System.out.println("The result of operaNum1 after addition assignment is :" + operaNum1);
+        //5 less  than (<)
+        int newNum9 = 10;
+        int newNum10 = 5;
+        boolean resultNum109 = (newNum9 <  newNum10);
+        System.out.println("is newNum9 less than newNum10 ? : " + resultNum109);
 
-                //2. Subtraction assignment: use to subtract value at the left from the variable at the right 
+        //4 less than or equal to  (<=)
+        int newNum11 = 10;
+        int newNum12 = 5;
+        boolean resultNum1112 = (newNum11 <=  newNum12);
+        System.out.println("is newNum11 less or  equal newNum12 ? : " + resultNum1112);
 
-                     int operaNum2 = 4;
-                    System.out.println("The result of operaNum2 before subtraction assignment is :" + operaNum2);
-                     operaNum2 -=  3;
-                    System.out.println("The result of operaNum2 after subtraction assignment is :" + operaNum2);
 
-                  //3. Multiplication assignment: use to multiply value at the left to the variable at the right 
+        //Compound Operators
 
-                     int operaNum3 = 4;
-                    System.out.println("The result of operaNum2 before multiplication assignment is :" + operaNum3);
-                     operaNum3 *=  3;
-                    System.out.println("The result of operaNum2 after addition multiplication assignment is :" + operaNum3);
+        //1. Additional assignment: use to add value at the left to the variable at the right
 
-                     //4. Division assignment: use to divide value at the left by the variable at the right 
+        int operaNum1 = 4;
+        System.out.println("The result of operaNum1 before addition assignment is :" + operaNum1);
+        operaNum1 +=  3;
+        System.out.println("The result of operaNum1 after addition assignment is :" + operaNum1);
 
-                     int operaNum4 = 4;
-                    System.out.println("The result of operaNum2 before division assignment is :" + operaNum4);
-                     operaNum4 /=  2;
-                    System.out.println("The result of operaNum2 after division assignment :" + operaNum4);
+        //2. Subtraction assignment: use to subtract value at the left from the variable at the right
 
+        int operaNum2 = 4;
+        System.out.println("The result of operaNum2 before subtraction assignment is :" + operaNum2);
+        operaNum2 -=  3;
+        System.out.println("The result of operaNum2 after subtraction assignment is :" + operaNum2);
 
+        //3. Multiplication assignment: use to multiply value at the left to the variable at the right
 
-                    // String: represent a sequence of character.
+        int operaNum3 = 4;
+        System.out.println("The result of operaNum2 before multiplication assignment is :" + operaNum3);
+        operaNum3 *=  3;
+        System.out.println("The result of operaNum2 after addition multiplication assignment is :" + operaNum3);
 
-                    // Creating string using sting literal 
-                    String morning = "Good morning";
-                    System.out.println(morning);
+        //4. Division assignment: use to divide value at the left by the variable at the right
 
-                    // Creating string using the "new" keyword
-                      String night = new String("Good night");
-                      System.out.println(night);
+        int operaNum4 = 4;
+        System.out.println("The result of operaNum2 before division assignment is :" + operaNum4);
+        operaNum4 /=  2;
+        System.out.println("The result of operaNum2 after division assignment :" + operaNum4);
 
-                      // Concatenation: Joining two or more string, string can also be concatenated with number nut the number will be converted to string automatically 
-                      
-                      //  Concatenating string 
-                         String firstName = "Hassan";
-                         String lastName = new String("Oladipupo");
-                         String fullName = firstName + " " + lastName;
-                         System.out.println(fullName);
 
-                          //  Concatenating string with numbers 
-                          int age = 26;
-                          String bio = "My name is "  + fullName + "and i am "  + age + " years old" ;
-                          System.out.println(bio);
 
-                          // String method Length: use to get the length of a string 
-                          String quote = "Determination is the Key";
-                          int quoteLength = quote.length();
-                         System.out.println(quoteLength);
-                         
-                         // String method charAt: use to get specific character  at specific index
-                          String newQuote = "Motivation is the Key";
-                          char firstChar = newQuote.charAt(0);
-                         System.out.println(firstChar);
+        // String: represent a sequence of character.
 
-                         // Comparing string with (==): this compare every details of the strings , this is know as comparing with reference
+        // Creating string using sting literal
+        String morning = "Good morning";
+        System.out.println(morning);
 
-                         // Comparing Reference : memory Address
-                         String str1 = "javaScript";
-                        String str2 = "javaScript";
-                        String str3 = new String("javaScript");
+        // Creating string using the "new" keyword
+        String night = new String("Good night");
+        System.out.println(night);
 
-                        boolean compareStr12 = (str1 == str2);
-                        System.out.println("Comparing " + str1 + " with " + str2 + " using == " + " and the result is: " + compareStr12);
+        // Concatenation: Joining two or more string, string can also be concatenated with number nut the number will be converted to string automatically
 
-                        boolean compareStr13 = (str1 == str3);
-                        System.out.println("Comparing " + str1 + " with " + str3 + " using == " + " and the result is: " + compareStr13);
+        //  Concatenating string
+        String firstName = "Hassan";
+        String lastName = new String("Oladipupo");
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
 
-                         // Comparing string with (equals): this compare only values of variables
+        //  Concatenating string with numbers
+        int age = 26;
+        String bio = "My name is "  + fullName + "and i am "  + age + " years old" ;
+        System.out.println(bio);
 
-                           // Comparing variables value 
+        // String method Length: use to get the length of a string
+        String quote = "Determination is the Key";
+        int quoteLength = quote.length();
+        System.out.println(quoteLength);
 
-                         String str4 = "Java";
-                        String str5 = "Java";
-                        String str6 = new String("Java");
+        // String method charAt: use to get specific character  at specific index
+        String newQuote = "Motivation is the Key";
+        char firstChar = newQuote.charAt(0);
+        System.out.println(firstChar);
 
-                        boolean compareStr45 = (str4.equals(str5));
-                        System.out.println("Comparing " + str4 + " with " + str5 + " using equals() " + " and the result is: " + compareStr45);
+        // Comparing string with (==): this compare every details of the strings , this is know as comparing with reference
 
-                        boolean compareStr46 = (str4.equals(str6));
-                        System.out.println("Comparing " + str4 + " with " + str6 + " using equals() " + " and the result is: " + compareStr46);
+        // Comparing Reference : memory Address
+        String str1 = "javaScript";
+        String str2 = "javaScript";
+        String str3 = new String("javaScript");
 
+        boolean compareStr12 = (str1 == str2);
+        System.out.println("Comparing " + str1 + " with " + str2 + " using == " + " and the result is: " + compareStr12);
 
-                // Comparing string with (equalsIgnoreCase): this compare only values of variables without case sensitivity
+        boolean compareStr13 = (str1 == str3);
+        System.out.println("Comparing " + str1 + " with " + str3 + " using == " + " and the result is: " + compareStr13);
 
-                      // Comparing variables value  without case sensitivity
+        // Comparing string with (equals): this compare only values of variables
 
-                         String str7 = "Php";
-                        String str8 = "php";
-                        String str9 = new String("phP");
+        // Comparing variables value
 
-                        boolean compareStr78 = (str7.equalsIgnoreCase(str8));
-                        System.out.println("Comparing " + str7 + " with " + str8 + " using equalsIgnorecase() " + " and the result is: " + compareStr78);
+        String str4 = "Java";
+        String str5 = "Java";
+        String str6 = new String("Java");
 
-                        boolean compareStr79 = (str7.equalsIgnoreCase(str9));
-                        System.out.println("Comparing " + str7 + " with " + str9 + " using equalsIgnoreCase() " + " and the result is: " + compareStr79);
+        boolean compareStr45 = (str4.equals(str5));
+        System.out.println("Comparing " + str4 + " with " + str5 + " using equals() " + " and the result is: " + compareStr45);
 
-                  // Cutting string : this involves breaking string in to different part using substring() method
+        boolean compareStr46 = (str4.equals(str6));
+        System.out.println("Comparing " + str4 + " with " + str6 + " using equals() " + " and the result is: " + compareStr46);
 
-                  String phrase1 = "programming in java";
-                  String word1 = phrase1.substring(0,11);
-                  System.out.println(word1);
 
-                   String phrase2 = "programming in python";
-                  String word2 = phrase2.substring(15);
-                  System.out.println(word2);
+        // Comparing string with (equalsIgnoreCase): this compare only values of variables without case sensitivity
 
-                  // replace method(): use to replace a character in a string with another one
-                  String phrase3 = "Tap level pragrammer";
-                  String replaceLetter = phrase3.replace('a', 'o');
-                  System.out.println(replaceLetter);
+        // Comparing variables value  without case sensitivity
 
-                   // toUpperCase  method(): use to change lower letter to upper case
-                  String phrase4 = "Top level programmer";
-                  String upperLetter = phrase4.toUpperCase();
-                  System.out.println(upperLetter);
+        String str7 = "Php";
+        String str8 = "php";
+        String str9 = new String("phP");
 
-                   // toLowerCase  method(): use to change upper letter to lower case
-                  String phrase5 = "top level programmer";
-                  String lowerLetter = phrase5.toLowerCase();
-                  System.out.println(lowerLetter);
+        boolean compareStr78 = (str7.equalsIgnoreCase(str8));
+        System.out.println("Comparing " + str7 + " with " + str8 + " using equalsIgnorecase() " + " and the result is: " + compareStr78);
 
+        boolean compareStr79 = (str7.equalsIgnoreCase(str9));
+        System.out.println("Comparing " + str7 + " with " + str9 + " using equalsIgnoreCase() " + " and the result is: " + compareStr79);
 
+        // Cutting string : this involves breaking string in to different part using substring() method
 
+        String phrase1 = "programming in java";
+        String word1 = phrase1.substring(0,11);
+        System.out.println(word1);
 
+        String phrase2 = "programming in python";
+        String word2 = phrase2.substring(15);
+        System.out.println(word2);
 
+        // replace method(): use to replace a character in a string with another one
+        String phrase3 = "Tap level pragrammer";
+        String replaceLetter = phrase3.replace('a', 'o');
+        System.out.println(replaceLetter);
+
+        // toUpperCase  method(): use to change lower letter to upper case
+        String phrase4 = "Top level programmer";
+        String upperLetter = phrase4.toUpperCase();
+        System.out.println(upperLetter);
+
+        // toLowerCase  method(): use to change upper letter to lower case
+        String phrase5 = "top level programmer";
+        String lowerLetter = phrase5.toLowerCase();
+        System.out.println(lowerLetter);
 
         
+
+
+
+
+
+
+
 
 
 
