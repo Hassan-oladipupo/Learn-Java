@@ -81,9 +81,46 @@ public class CondtionStatement {
             else {
                 System.out.println("Number is zero!");
             }
-
-
         }
+
+        //If else If: This is use to check for multiple condition at the same time,
+        // and it will check the second condition only if the first condition is not true
+        // and check third condition only if the first and second are not true ,
+        // it execute the else only if all condition are not true
+
+        int grade = 25;
+        if(grade >= 70){
+            System.out.println("Grade " + grade + " is an A");
+        } else if (grade >= 59) {
+            System.out.println("Grade " + grade + " is a B");
+        } else if (grade >= 50) {
+            System.out.println("Grade " + grade + " is a C");
+        } else if (grade >= 49) {
+            System.out.println("Grade " + grade + " is a D");
+        }
+        else {
+            System.out.println("Grade " + grade + " is an F");
+        }
+
+
+        //Ternary Operator : are use to write if else statement in more short way ,
+        // so they are simpler nad shorter way of writing if else
+
+        //(condition) ? Expression 1 : Expression 2
+
+        //e.g 1
+        int groupAge = 16;
+        double discount = (groupAge < 18) ? 0.10 * 100 :0.5 * 100;
+        System.out.println("The discount is: " + discount + "%");
+
+        //e.g 2
+        String programmingLanguage = "javaScript";
+        String newProgrammingLanguage = (programmingLanguage.equals("javaScript")) ? "New Language":
+                                        ( programmingLanguage.equals("Goland")) ?  "New Language":
+                                         ( programmingLanguage.equals("Goland")) ?  "New Language":
+                                                 "Old Language";
+         System.out.println(newProgrammingLanguage);
+
 
 
         scanner.close();
