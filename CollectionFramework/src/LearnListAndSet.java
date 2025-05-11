@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 
-public class Main {
+public class LearnListAndSet {
     public static void main(String[] args) {
 
         // Implement the List interface
